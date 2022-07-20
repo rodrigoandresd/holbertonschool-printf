@@ -15,15 +15,24 @@ int _printf(const char *format, ...)
 		{"c", c_func}, {"s", s_func}, {"%", perc_func}
 		{NULL, NULL},
 	};
+
 	va_start(args, format);
 	i = 0, count = 0;
 	if (format == NULL) format[0] /*NULL?? */
 		return (1);
 	while (format != NULL && format[i] != '\0')
-		{
-			if (format[i] != %)
+	{
+		if (format[i] != %)
 			_putchar(format[i]);
-		j = 0;
-		while ()
+			count++; /* For character count */
+		else 
+		{
+			j = 0;
+			while (type[j].vartype != NULL)
+			{
+				
+			}	
 		}
+	}
+	return (count);
 }
