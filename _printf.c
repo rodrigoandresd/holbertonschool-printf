@@ -11,8 +11,8 @@ int _printf(const char *format, ...)
 
 	va_list args;
 	int i, j, k, count;
-	var_t type [] = {
-		{"c", c_func}, {"s", s_func}, {"%", perc_func}
+	var_t type[] = {
+		{"c", c_func}, {"s", s_func}, {"%", perc_func},
 		{NULL, NULL},
 	};
 
@@ -22,15 +22,14 @@ int _printf(const char *format, ...)
 		return (1);
 	while (format != NULL && format[i] != '\0')
 	{
-		if (format[i] != %)
-			_putchar(format[i]);
-			count++; /* For character count */
-		else 
+		if (format[i] != '%')
+			_putchar(format[i]), count++;/* For character count */
+		else
 		{
 			j = 0;
 			while (type[j].vartype != NULL)
 			{
-				if (*type[j].vartype == format [i + 1])
+				if (*type[j].vartype == format[i + 1])
 				k += (type[j].f)(args);
 				i++;
 				break;
