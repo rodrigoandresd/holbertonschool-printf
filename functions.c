@@ -40,10 +40,8 @@ int s_func(va_list args)
 
 int perc_func(va_list args)
 {
-        char perc;
-
-        perc = va_arg(args, char);
-        _putchar(perc);
-        return (0);
+	(void)args;
+	_putchar('%');
+	return (0);
 }
 
