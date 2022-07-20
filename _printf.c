@@ -20,8 +20,10 @@ int _printf(const char *format, ...)
 	if (format == NULL) format[0] /*NULL?? */
 		return (1);
 	while (format != NULL && format[i] != '\0')
-		
+		{
+			if (format[i] != %)
+			_putchar(format[i]);
 		j = 0;
 		while ()
-
+		}
 }
