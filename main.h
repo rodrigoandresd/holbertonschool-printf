@@ -2,8 +2,10 @@
 #define _MAIN_H
 
 /* importing */
+
 #include <stdio.h>
 #include <stdarg.h>
+#include <unistd.h>
 
 /* types and structures */
 
@@ -25,6 +27,7 @@ typedef struct vartype
 /* prototypes */
 
 int _printf(const char *format, ...);
+int _putchar(char c);
 
 /* macros functions */
 
