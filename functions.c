@@ -12,7 +12,7 @@ int c_func(va_list args)
 
 	c = va_arg(args, int);
 	_putchar(c);
-	return 0;
+	return (0);
 }
 
 /**
@@ -29,8 +29,21 @@ int s_func(va_list args)
 	s = va_arg(args, char *);
 	for (i = 0 ; s[i] ; i++)
 		_putchar(s[i]);
-	return 0;
+	return (0);
 }
 
+/**
+ * perc_func - function that prints characters
+ * @args: character passed into function
+ * Return: success
+ */
 
+int perc_func(va_list args)
+{
+        char perc;
+
+        perc = va_arg(args, char);
+        _putchar(perc);
+        return (0);
+}
 
