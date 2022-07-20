@@ -27,9 +27,17 @@ int s_func(va_list args)
 	char *s;
 
 	s = va_arg(args, char *);
-	for (i = 0 ; s[i] ; i++)
+	if (s == NULL)
+	{
+		s = "(null)";
+	}
+	i = 0;
+	while (s[i])
+	{
 		_putchar(s[i]);
-	return (0);
+		i++;
+	}
+	return (i);
 }
 
 /**
