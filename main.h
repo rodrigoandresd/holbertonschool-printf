@@ -28,6 +28,9 @@ typedef struct vartype
 
 int _printf(const char *format, ...);
 int _putchar(char c);
+int c_func(va_list args);
+int s_func(va_list args);
+int perc_func(va_list args);
 
 /* macros functions */
 
