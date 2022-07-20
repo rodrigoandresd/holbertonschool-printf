@@ -18,7 +18,7 @@ int _printf(const char *format, ...)
 
 	va_start(args, format);
 	i = 0, count = 0, k = 0;
-	if (format == NULL)/* || (format[0] == '%')*/
+	if (format == NULL)
 		return (1);
 	while (format != NULL && format[i] != '\0')
 	{
@@ -32,11 +32,13 @@ int _printf(const char *format, ...)
 			{
 				if (*type[j].vartype == format [i + 1])
 				k += (type[j].f)(args);
+				i++;
+				break;
 			}
-			j++
+			j++;
 		}
+		i++;
 	}
-	i++;
 	count = k;
 	va_end(args);
 	return (count);
