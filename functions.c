@@ -33,7 +33,7 @@ int s_func(va_list args)
 		_putchar(s[i]);
 		i++;
 	}
-	return (i);
+	return (0);
 }
 
 /**
