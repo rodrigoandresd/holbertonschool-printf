@@ -38,7 +38,7 @@ int _printf(const char *format, ...)
 				j++;
 			}
 			if (type[j].vartype == NULL)
-				k += 1;
+				k += 1, _putchar('%');
 		}
 		i++;
 	}
