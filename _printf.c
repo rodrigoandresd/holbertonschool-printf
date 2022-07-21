@@ -30,7 +30,7 @@ int _printf(const char *format, ...)
 			while (type[j].vartype != NULL)
 			{
 				if (*type[j].vartype == format[i + 1])
-				{	
+				{
 				(type[j].f)(args);
 				i++;
 				break;
