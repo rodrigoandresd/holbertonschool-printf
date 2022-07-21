@@ -12,7 +12,7 @@ int c_func(va_list args)
 
 	c = va_arg(args, int);
 	_putchar(c);
-	return (0);
+	return (1);
 }
 
 /**
@@ -33,7 +33,7 @@ int s_func(va_list args)
 		_putchar(s[i]);
 		i++;
 	}
-	return (0);
+	return (i);
 }
 
 /**
@@ -46,6 +46,6 @@ int perc_func(va_list args)
 {
 	(void)args;
 	_putchar('%');
-	return (0);
+	return (1);
 }
 
