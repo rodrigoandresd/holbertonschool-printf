@@ -27,10 +27,6 @@ int s_func(va_list args)
 	char *s;
 
 	s = va_arg(args, char *);
-	if (s == NULL)
-	{
-		s = "(null)";
-	}
 	i = 0;
 	while (s[i])
 	{
