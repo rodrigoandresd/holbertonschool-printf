@@ -10,15 +10,15 @@ int _printf(const char *format, ...)
 {
 
 	va_list args;
-	int i, j, count;
+	int i, j, k, count;
 	var_t type[] = {
 		{"c", c_func}, {"s", s_func}, {"%", perc_func},
 		{NULL, NULL},
 	};
 
 	va_start(args, format);
-	i = 0, count = 0;
-	if (format == NULL || format[0] == '\0')
+	i = 0, count = 0, k = 0;
+	if (format == NULL)
 		return (1);
 	while (format != NULL && format[i] != '\0')
 	{
@@ -31,7 +31,7 @@ int _printf(const char *format, ...)
 			{
 				if (*type[j].vartype == format[i + 1])
 				{
-				(type[j].f)(args);
+				k += (type[j].f)(args);
 				i++;
 				break;
 				}
@@ -40,6 +40,7 @@ int _printf(const char *format, ...)
 		}
 		i++;
 	}
+	count += k;
 	va_end(args);
 	return (count);
 }
