@@ -37,6 +37,8 @@ int _printf(const char *format, ...)
 				}
 				j++;
 			}
+			if (type[j].vartype == NULL)
+				k += 1;
 		}
 		i++;
 	}
