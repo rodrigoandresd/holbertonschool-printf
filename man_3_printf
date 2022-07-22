@@ -1,0 +1,30 @@
+.TH _PRINTF(1)  				User Commands 
+
+.SH NAME
+
+.B _printf \- function that prints data
+
+.SH SYNOPSIS
+.B _printf FORMAT [ARGUMENT]...
+
+.SH DESCRIPTION
+
+.B _printf replicates some of the functions of the more ecompassing printf function. Employing the proper format specifiers _printf can print the following data: string (s), character (c), integer (i), decimal (d).
+
+.SH RETURN VALUE:
+
+.B Upon successful return, these functions return the number of
+characters printed (excluding the null byte used to end output to
+strings).
+
+.SH OPTIONS
+
+.B No option at this time.
+
+.SH BUGS
+
+.BNo bugs known to date.
+
+.SH AUTHORS
+
+Avelino Carvajal			Rodrigo Duque
