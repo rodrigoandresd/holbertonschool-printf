@@ -6,7 +6,6 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <unistd.h>
-#include <limits.h>
 
 /* types and structures */
 
@@ -22,9 +21,6 @@ typedef struct vartype
 	int (*f)(va_list);
 } var_t;
 
-
-/* macros valores constantes */
-
 /* prototypes */
 
 int _printf(const char *format, ...);
@@ -33,8 +29,5 @@ int c_func(va_list args);
 int s_func(va_list args);
 int perc_func(va_list args);
 int d_func(va_list args);
-int i_func(va_list args);
-
-/* macros functions */
 
 #endif /* MAIN_H */

@@ -3,7 +3,7 @@
 /**
  * c_func - function that prints characters
  * @args: character passed into function
- * Return: success
+ * Return: character counted
  */
 
 int c_func(va_list args)
@@ -18,7 +18,7 @@ int c_func(va_list args)
 /**
  * s_func - function that prints string
  * @args: character passed into function
- * Return: success
+ * Return: characters counted
  */
 
 int s_func(va_list args)
@@ -43,7 +43,7 @@ int s_func(va_list args)
 /**
  * perc_func - function that prints characters
  * @args: character passed into function
- * Return: success
+ * Return: character counted
  */
 
 int perc_func(va_list args)
@@ -52,4 +52,3 @@ int perc_func(va_list args)
 	_putchar('%');
 	return (1);
 }
-

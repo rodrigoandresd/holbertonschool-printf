@@ -32,9 +32,9 @@ int _printf(const char *format, ...)
 			{
 				if (*type[j].vartype == format[i + 1])
 				{
-				k += (type[j].f)(args);
-				i++;
-				break;
+					k += (type[j].f)(args);
+					i++;
+					break;
 				}
 				j++;
 			}

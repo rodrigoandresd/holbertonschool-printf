@@ -5,13 +5,11 @@
  * @args: argument list
  * Return: count
  */
+
 int d_func(va_list args)
 {
-	int item;
-	unsigned int unit = 1;
-	unsigned int base = 10;
-	int count = 0;
-	unsigned int number;
+	int item = 0, int count = 0;
+	unsigned int unit = 1, unsigned int base = 10, unsigned int number = 0;
 
 	item = va_arg(args, int);
 
@@ -39,4 +37,3 @@ int d_func(va_list args)
 	}
 	return (count);
 }
-
