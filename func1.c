@@ -8,8 +8,11 @@
 
 int d_func(va_list args)
 {
-	int item = 0, int count = 0;
-	unsigned int unit = 1, unsigned int base = 10, unsigned int number = 0;
+	int item;
+	int count = 0;
+	unsigned int unit = 1;
+	unsigned int base = 10;
+	unsigned int number;
 
 	item = va_arg(args, int);
 
