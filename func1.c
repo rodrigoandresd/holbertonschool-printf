@@ -39,15 +39,3 @@ int d_func(va_list args)
 	return (count);
 }
 
-/**
- * i_func - print an integer in base 10
- * @args: argument list
- * Return: count
- */
-int i_func(va_list args)
-{
-	int count = 0;
-
-	count = d_func(args);
-	return (count);
-}
