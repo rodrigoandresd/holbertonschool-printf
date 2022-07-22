@@ -8,20 +8,21 @@
 int d_func(va_list args)
 {
 	int item;
-	int unit = 1;
-	int base = 10;
+	unsigned int unit = 1;
+	unsigned int base = 10;
 	int count = 0;
-	int number;
-
+	unsigned int number;
+	
 	item = va_arg(args, int);
-
+	
 	if (item < 0)
 	{
 		_putchar('-');
 		number = item * -unit;
 		count++;
 	}
-		else
+
+	else
 		{
 			number = item;
 		}
