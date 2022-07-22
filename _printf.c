@@ -13,7 +13,7 @@ int _printf(const char *format, ...)
 	int i, j, k, count;
 	var_t type[] = {
 		{"c", c_func}, {"s", s_func}, {"%", perc_func},
-		{"i", i_func}, {"d", d_func},
+		{"i", d_func}, {"d", d_func},
 		{NULL, NULL},
 	};
 
