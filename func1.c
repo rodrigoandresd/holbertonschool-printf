@@ -12,9 +12,9 @@ int d_func(va_list args)
 	unsigned int base = 10;
 	int count = 0;
 	unsigned int number;
-	
+
 	item = va_arg(args, int);
-	
+
 	if (item < 0)
 	{
 		_putchar('-');
