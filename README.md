@@ -1,7 +1,7 @@
 # C - printf :computer:
 
 
-![Logo printf](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsxflU8D1TvNmVm98M8NB-_ncmjQEKI-5rwA&usqp=CAUiii)
+![Logo printf](https://www.facebook.com/printf.osor/photos/a.151282488695025/151282465361694/?type=1&theater)
 
 
 The printf function is responsible for generating a data output based on a specific format. **Rodrigo Duque** and **Avelino Carvajal** created our own print function in the C programming language! (_printf).
@@ -22,14 +22,13 @@ This print the following formats
 
 ## Flowchart :dart:
 
-![flowcharr](file:///home/avelino12/Descargas/flowchart.jpeg)
+![flowcharr](https://oreoblogimage.blogspot.com/2022/07/flowchart.html)
 
 ___
 
 
 # Project details :file_folder:
 
-![image inicial](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/228/printf.png)
 
 ### Prototype
 ```int _printf(const char *format, ...);```
@@ -65,7 +64,6 @@ All function prototypes used to compile _printf() are included in the header fil
 *    int s_func(va_list args);
 *    int perc_func(va_list args);
 *    int d_func(va_list args);
-*    int i_func(va_list args);
 
 ## Examples
 
