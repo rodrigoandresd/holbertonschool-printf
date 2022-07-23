@@ -1,8 +1,6 @@
 # C - printf :computer:
 
 
-![Logo printf](https://www.facebook.com/printf.osor/photos/a.151282488695025/151282465361694/?type=1&theater)
-
 
 The printf function is responsible for generating a data output based on a specific format. **Rodrigo Duque** and **Avelino Carvajal** created our own print function in the C programming language! (_printf).
 
@@ -22,7 +20,6 @@ This print the following formats
 
 ## Flowchart :dart:
 
-![flowcharr](https://oreoblogimage.blogspot.com/2022/07/flowchart.html)
 
 ___
 
