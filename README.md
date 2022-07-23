@@ -19,7 +19,7 @@ This print the following formats
 
 
 ## Flowchart :dart:
-
+[![Prinf.jpg](https://i.postimg.cc/qvVGqJVX/Prinf.jpg)](https://postimg.cc/9rb9Njfr)
 
 ___
 
