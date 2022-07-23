@@ -51,6 +51,19 @@ All files are written in C and follow Betty's coding style for Holberton School.
 * va_arg (man 3 va_arg)
 * _putchar(char c)
 
+### File description
+
+These are the files used in the project
+
+* **_printf.c:** 
+* **_putchar.c:** 
+* **main.h** 
+* **main.c**
+* **functions.c**
+* **func1.c**
+* **main_3_printf**
+
+
 ### Function prototypes
 
 All function prototypes used to compile _printf() are included in the header file **main.h**:
@@ -72,7 +85,7 @@ ___
 
 ## Task :notebook:
 
-### 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
+> ### 0. I'm not going anywhere. You can print that wherever you want to. I'm here and I'm a Spur for life
 
 Write a function that produces output according to a format.
 
@@ -91,10 +104,10 @@ Write a function that produces output according to a format.
 
 ### Solution files:
 
-*  [_printf.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/_printf.c)  [functions.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/functions.c)
+* File [_printf.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/_printf.c)  [functions.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/functions.c)
 
 
-### 1. Education is when you read the fine print. Experience is what you get if you don't
+> ### 1. Education is when you read the fine print. Experience is what you get if you don't
 
 Handle the following conversion specifiers:
 
@@ -107,15 +120,16 @@ Handle the following conversion specifiers:
 
 ### Solution files:
 
-* [_printf.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/_printf.c)  [func1.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/func1.c)
+* File [_printf.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/_printf.c)  [func1.c](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/func1.c)
 
-### 2. Just because it's in print doesn't mean it's the gospel
+
+> ### 2. Just because it's in print doesn't mean it's the gospel
 
 Create a man page for your function.
 
 ### Solution files:
 
-*  [man_3_printf](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/man_3_printf)
+* File [man_3_printf](https://github.com/rodrigoandresd/holbertonschool-printf/blob/main/man_3_printf)
 
 ---
 
